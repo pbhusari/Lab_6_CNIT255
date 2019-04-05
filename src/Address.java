@@ -4,6 +4,11 @@ public class Address {
 
     public Address(){
         this.address1 = "UNKNOWN";
+        this.address2 = "UNKNOWN";
+        this.city = "UNKNOWN";
+        this.state = "UNKNOWN";
+        this.zipCode = "UNKNOWN";
+        
     }
 
     public Address(String address1, String address2, String city, String state, String zipCode) {

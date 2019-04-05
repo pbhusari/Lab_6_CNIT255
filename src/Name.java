@@ -3,6 +3,7 @@ public class Name {
 
     public Name() {
         this.firstName = "UNKNOWN";
+        this.middleInitial = "UNKNOWN";
         this.lastName = "UNKNOWN";
     }
 

@@ -8,6 +8,9 @@
  *
  * @author prana
  */
+
+
 public interface BirthDateCalculate {
     
+    void calcAge();
 }

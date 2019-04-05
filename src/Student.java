@@ -19,6 +19,10 @@ public class Student extends Person implements BirthDateCalculate{
     public Student(){
         super();
         this.PUID = "UNKNOWN";
+        this.major = "UNKNOWN";
+        this.favoriteClass = "UNKNOWN";
+        this.graduationDate = "UNKNOWN";
+        this.attendedHogwarts = false;
     }
 
     public Student(String PUID) {
